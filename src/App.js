@@ -16,11 +16,12 @@ function App() {
   return (
     <div >
      <div>
-      {isAuthenticated ? (
+      {/* {isAuthenticated ? (
         <DashboardPage />
       ) : (
         <LoginPage />
-      )}
+      )} */}
+      <DashboardPage />
      
       
     </div>
