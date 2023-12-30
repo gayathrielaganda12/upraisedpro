@@ -1,4 +1,3 @@
-import { BsFillShieldLockFill, BsTelephoneFill } from "react-icons/bs";
 import { CgSpinner } from "react-icons/cg";
 import authentication from './assests/images/Authentication.png'
 
@@ -12,7 +11,7 @@ import { toast, Toaster } from "react-hot-toast";
 import { useDispatch } from "react-redux";
 import { setAuthenticated } from "./actions/authActions";
 import NavigationBar from "./Components.js/NavigationBar";
-import { hierarchy } from "d3";
+
 
 const LoginPage = () => {
   const [otp, setOtp] = useState("");
