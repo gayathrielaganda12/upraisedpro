@@ -6,7 +6,7 @@ function GetStarted() {
     <div className='container-fluid ' style={{padding:'0px',height:'100%',width:'100%'}}>
  <div className='row'> 
  <div  className='col-12 col-sm-6'>
-        <img src={weatherbg}/>
+        <img src={weatherbg} alt="weather "/>
         
 
       </div>

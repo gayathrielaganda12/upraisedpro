@@ -8,7 +8,6 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 const SearchCity = () => {
-  const appState = useSelector((state) => state);
 
   const weatherState = useSelector((state) => state.weather);
 
@@ -64,7 +63,7 @@ const SearchCity = () => {
           onKeyPress={handleKeyPress} 
           style={{borderRadius:'0.4em',margin:'0.5em',padding:'0.5em',width:'50%'}}
         />
-        <button type="submit"><img  src={searchIcon}  style={{height:'2em',borderRadius:'50%'}}/></button>
+        <button type="submit"><img  src={searchIcon} alt="search icon" style={{height:'2em',borderRadius:'50%'}}/></button>
       </form> 
           
 

@@ -2,7 +2,6 @@ import React from 'react';
 import HumidityIcon from '../assests/images/HumidityIcon.png'
 import WeatherImg from '../assests/images/WeatherImg.png'
 import WindIcon from '../assests/images/Wind.png'
-import MoreDetails from './MoreDetails';
 import TemperatureGraph from './TemperatureGraph';
 import { useSelector } from 'react-redux';
 import PressureIcon from '../assests/images/Pressure.png'

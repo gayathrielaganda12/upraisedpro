@@ -91,7 +91,7 @@ const LoginPage = () => {
         ) : (
          <div >
            <div className="border:'1px solid #ADD8E6' flex flex-col gap-4 rounded-lg p-4" style={{boxShadow:'10px 8px 8px  4px #ADD8E6 ',backgroundColor:'#67B7D1'}}>
-             <img  src={authentication} style={{height:'10em',width:'10em',margin:'auto',borderRadius:'50%'}}/>
+             <img  src={authentication}  alt="authentication" style={{height:'10em',width:'10em',margin:'auto',borderRadius:'50%'}}/>
             {showOTP ? (
               <>
               
